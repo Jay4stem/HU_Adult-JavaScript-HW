@@ -21,7 +21,7 @@
         - Another string – show “Wrong password”,
         - For an empty string or cancelled input, show “Canceled.”
     
-3. [Which values shows the while?](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#while-value)
+3. Which values shows the while?
    *For every loop, write down which values it shows, in your opinion. And then compare with the answer.*
     #### The prefix form ++i:
     - let i = 0;
@@ -33,7 +33,7 @@
     - while (i++ < 5) 
     - alert( i );
     
-4. [Output even numbers in the loop](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#even-numbers)
+4. [Output even numbers in the loop](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#nesting-for-loops)
     - Use the for loop to output even numbers from 2 to 10.
     
 5. [Array operations](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#array-operations)
