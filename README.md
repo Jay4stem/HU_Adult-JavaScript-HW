@@ -22,6 +22,7 @@
         - For an empty string or cancelled input, show “Canceled.”
     
 3. Which values shows the while?
+   
    *For every loop, write down which values it shows, in your opinion. And then compare with the answer.*
     #### The prefix form ++i:
     - let i = 0;
