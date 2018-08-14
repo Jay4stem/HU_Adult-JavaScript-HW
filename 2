@@ -1,1 +1,65 @@
-# Test
+# HU_Adult-JavaScript-HW-2
+**__Please answer the questions below. For reference each question is linked to some examples.__**
+
+1. [Sort in the reverse order](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#reverse-array)
+   let arr = [5, 2, 1, -10, 8];
+   // ... your code to sort it in the reverse order
+   alert( arr ); // 8, 5, 2, 1, -10
+    
+2. [Copy and sort array](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#sort-the-array)
+    - We have an array of strings arr. We’d like to have a sorted copy of it, but keep arr unmodified.
+    - Create a function copySorted(arr) that returns such a copy.
+      
+      let arr = ["HTML", "JavaScript", "CSS"];
+      let sorted = copySorted(arr);
+      
+      alert( sorted ); // CSS, HTML, JavaScript
+      alert( arr ); // HTML, JavaScript, CSS (no changes)
+    
+3. [Check the login](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#check-the-login)
+    - Write the code which asks for a login with prompt.
+        - If the visitor enters "Admin", then prompt for a password, if the input is an empty line or Esc – show “Canceled.”, if it’s another string – then show “I don’t know you”.
+    - The password is checked as follows:
+        - Another string – show “Wrong password”,
+        - For an empty string or cancelled input, show “Canceled.”
+    
+3. Which values shows the while?
+   
+   *For every loop, write down which values it shows, in your opinion. And then compare with the answer.*
+    #### The prefix form ++i:
+    - let i = 0;
+    - while (++i < 5) 
+    - alert( i );
+
+    #### The postfix form i++
+    - let i = 0;
+    - while (i++ < 5) 
+    - alert( i );
+    
+4. [Output even numbers in the loop](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#nesting-for-loops)
+    - Use the for loop to output even numbers from 2 to 10.
+    
+5. [Array operations](https://github.com/Jay4stem/HU_Adult-JavaScript-Examples/blob/master/Examples1.md#array-operations)
+    
+    - Create an array styles with items “Jazz” and “Blues”.
+    - Append “Rock-n-Roll” to the end.
+    - Replace the value in the middle by “Classics”. Your code for finding the middle value should work for any arrays with odd length.
+    - Strip off the first value of the array and show it.
+    - Prepend Rap and Reggae to the array.
+
+    ###### The array in the process:
+        - Jazz, Blues
+        - Jazz, Bues, Rock-n-Roll
+        - Jazz, Classics, Rock-n-Roll
+        - Classics, Rock-n-Roll
+        - Rap, Reggae, Classics, Rock-n-Roll
+        
+## Extra Credit
+
+### Sum input numbers
+
+    Ask the user for values using prompt and stores the values in the array.
+    Finishes asking when the user enters a non-numeric value, an empty string, or presses “Cancel”.
+    Calculates and returns the sum of array items.
+
+P.S. A zero 0 is a valid number, please don’t stop the input on zero.
